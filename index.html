@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>King's Turkish Barbers | Crownhill Plymouth</title>
+<meta name="description" content="King's Turkish Barbers in Crownhill, Plymouth. Traditional Turkish hot towel shaves, beard sculpting, and haircuts.">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+:root { --maroon: #6b1d2a; --dark-maroon: #4a121c; --cream: #f5eee6; --gold: #c9a84c; --light-gold: #e0c878; }
+body { font-family: 'Lato', sans-serif; background: var(--cream); color: #2c1810; }
+h1,h2,h3 { font-family: 'Cinzel', serif; }
+.hero {
+  background: linear-gradient(135deg, var(--dark-maroon) 0%, var(--maroon) 50%, #3d0f18 100%);
+  color: var(--cream); padding: 100px 20px 80px; text-align: center; position: relative;
+  background-image: radial-gradient(circle at 20% 80%, rgba(201,168,76,0.08) 0%, transparent 50%);
+}
+.hero h1 { font-size: 3.5em; letter-spacing: 3px; color: var(--gold); text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+.hero .subtitle { font-size: 1.2em; color: var(--light-gold); letter-spacing: 6px; text-transform: uppercase; margin-top: 10px; }
+.hero p { margin: 20px 0; font-size: 1.05em; color: #dcc8b8; }
+.hero .cta {
+  display: inline-block; background: var(--gold); color: var(--dark-maroon); padding: 14px 40px;
+  border-radius: 4px; text-decoration: none; font-weight: 700; transition: .3s; letter-spacing: 1px;
+}
+.hero .cta:hover { background: var(--light-gold); transform: translateY(-2px); }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+.section { padding: 70px 0; }
+.section h2 { text-align: center; font-size: 2.2em; color: var(--maroon); margin-bottom: 50px; }
+.section h2::after { content: ''; display: block; width: 50px; height: 2px; background: var(--gold); margin: 12px auto 0; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap: 25px; }
+.service-card {
+  background: white; border-radius: 8px; padding: 30px; text-align: center;
+  box-shadow: 0 4px 20px rgba(107,29,42,0.08); border: 1px solid #e8ddd2; transition: .3s;
+}
+.service-card:hover { border-color: var(--gold); transform: translateY(-4px); }
+.service-card h3 { color: var(--maroon); font-size: 1.35em; }
+.service-card .price { color: var(--gold); font-size: 1.4em; font-weight: 700; margin: 10px 0; }
+.features { background: var(--maroon); color: var(--cream); }
+.features h2 { color: var(--cream); }
+.features h2::after { background: var(--gold); }
+.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: 20px; }
+.feature-item { text-align: center; padding: 25px 15px; }
+.feature-item .icon { font-size: 2.5em; margin-bottom: 10px; display: block; }
+.feature-item h3 { color: var(--gold); font-size: 1.1em; }
+.contact { background: #e8ddd2; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.contact-info p { margin: 14px 0; font-size: 1.05em; }
+.contact-info strong { color: var(--maroon); }
+.contact-info a { color: var(--maroon); text-decoration: none; }
+.contact-info a:hover { text-decoration: underline; }
+.opening-table { width: 100%; border-collapse: collapse; }
+.opening-table td { padding: 8px 12px; border-bottom: 1px solid #d4c5b5; }
+.opening-table td:last-child { text-align: right; font-weight: 600; color: var(--maroon); }
+footer {
+  background: var(--dark-maroon); color: #b89a8a; text-align: center; padding: 30px 20px; font-size: 0.9em;
+}
+footer a { color: var(--gold); text-decoration: none; }
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.3em; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>👑 King's Turkish Barbers</h1>
+  <p class="subtitle">Crownhill • Plymouth</p>
+  <p>Traditional Turkish barbering — hot towel shaves, beard sculpting &amp; precision haircuts</p>
+  <a href="#contact" class="cta">Book Now</a>
+</header>
+
+<section class="section" id="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card"><h3>✂️ Turkish Haircut</h3><p>Scissor &amp; clipper cut</p><p class="price">£18</p></div>
+      <div class="service-card"><h3>🪒 Hot Towel Shave</h3><p>Traditional cut-throat</p><p class="price">£22</p></div>
+      <div class="service-card"><h3>🧔 Beard Sculpt</h3><p>Shape &amp; detail with hot towel</p><p class="price">£14</p></div>
+      <div class="service-card"><h3>🔥 Fire Groom</h3><p>Ear &amp; nose fire singe</p><p class="price">£8</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section features" id="features">
+  <div class="container">
+    <h2>The Turkish Experience</h2>
+    <div class="features-grid">
+      <div class="feature-item"><span class="icon">🪒</span><h3>Cut-Throat Shave</h3><p style="color:#dcc8b8;">Traditional straight razor</p></div>
+      <div class="feature-item"><span class="icon">🧣</span><h3>Hot Towel Ritual</h3><p style="color:#dcc8b8;">Steamed &amp; soothing</p></div>
+      <div class="feature-item"><span class="icon">🔥</span><h3>Fire Finishing</h3><p style="color:#dcc8b8;">Ear &amp; nose grooming</p></div>
+      <div class="feature-item"><span class="icon">💆</span><h3>Face Massage</h3><p style="color:#dcc8b8;">Relaxing finish</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="container">
+    <h2>Visit Us</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p><strong>📍 Address:</strong> Crownhill, Plymouth</p>
+        <p><strong>📞 Phone:</strong> <a href="tel:+441752000001">01752 000001</a></p>
+        <p><strong>✉️ Email:</strong> <a href="mailto:kingsturkishbarbers@outlook.com">kingsturkishbarbers@outlook.com</a></p>
+        <p><strong>🕐 Hours:</strong></p>
+        <table class="opening-table">
+          <tr><td>Mon–Sat</td><td>9am – 6pm</td></tr>
+          <tr><td>Sunday</td><td>10am – 2pm</td></tr>
+        </table>
+      </div>
+      <div style="background:var(--maroon);border-radius:8px;height:220px;display:flex;align-items:center;justify-content:center;color:var(--cream);font-size:1.2em;">
+        🗺️ Crownhill, Plymouth
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 King's Turkish Barbers, Plymouth</p>
+  <p>📧 <a href="mailto:kingsturkishbarbers@outlook.com">kingsturkishbarbers@outlook.com</a></p>
+</footer>
+</body>
+</html>
